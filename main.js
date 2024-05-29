@@ -11,5 +11,21 @@ window.addEventListener('load', () => {
         localStorage.setItem('username', e.target.value);
     })
 
-     
+     newTodoForm.addEventListener('submit', e =>{
+        e.preventDefault();
+
+        const todo = {
+            content: e.target.elements.content.value,
+            category: e.target.elements.Category.value,
+            done:false,
+            createAt: new Date().getTime()
+        }
+
+        todos.push(todo);
+
+        localStorage.setItem('todos', JSON.stringify(todos));
+
+        e.target.reset();
+
+     })
 })
