@@ -186,6 +186,11 @@ input:checked ~ .bubble::after {
     margin-bottom: 1rem;
 }
 
+.todo-item {
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
 .todo-item label {
     display: block;
     margin-right: 1rem;
@@ -193,12 +198,22 @@ input:checked ~ .bubble::after {
 }
 
 .todo-item .todo-content {
-    flex: 1 1 0%;
+    flex: 1 1 auto;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin-right: 1rem;
 }
 
 .todo-item .todo-content input {
+    width: 100%;
     color: var(--dark);
     font-size: 1.125rem;
+    background: none; /* To make sure background is not interfering */
+    border: none; /* Remove border if any */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Handle overflow with ellipsis if needed */
+    white-space: pre-wrap; /* Allow wrapping */
 }
 
 .todo-item .actions {
@@ -223,6 +238,12 @@ input:checked ~ .bubble::after {
 .todo-item .actions .edit {
     margin-right: 0.5rem;
     background-color: var(--primary);
+}
+
+.todo-item .actions button:disabled {
+    background-color: var(--grey);
+    cursor: not-allowed;
+    opacity: 0.6;
 }
 
 .todo-item .actions .delete {
