@@ -13,7 +13,7 @@ Welcome to the Todo App repository! This is a simple and elegant todo list appli
 ## Screenshots
 
 ![Todo App Screenshot](Todo-App-Initial.png)
-
+(Todo-App-final.png)
 ## Getting Started
 
 ### Prerequisites
