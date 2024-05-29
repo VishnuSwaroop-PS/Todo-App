@@ -1,4 +1,3 @@
-markdown
 # Todo App
 
 A simple Todo App that allows users to create and manage their tasks. This app uses LocalStorage to persist data across browser sessions. The app is built using HTML, CSS, and JavaScript.
