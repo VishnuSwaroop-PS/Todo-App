@@ -4,7 +4,8 @@ Welcome to the Todo App repository! This is a simple and elegant todo list appli
 
 ## Features
 
-- *Create Tasks*: Add new tasks with a description and categorize them as either 'business' or 'personal'.
+- *Create Tasks*: Users can easily create a new todo by entering the task content.
+- *Category Selection*: Each todo can be categorized as either business or personal, providing organization and clarity to the user's tasks.
 - *Edit Tasks*: Modify the content of your tasks.
 - *Mark as Done*: Mark tasks as completed, which will move them to the bottom of the list.
 - *Delete Tasks*: Remove tasks from the list.
@@ -14,6 +15,12 @@ Welcome to the Todo App repository! This is a simple and elegant todo list appli
 
 ![Todo App Screenshot](Todo-App-Initial.png) 
 ![Todo App Screenshot](Todo-App-final.png)
+
+## Demo
+
+You can check out the live demo of the app [here](https://vishnuswaroop-ps.github.io/Todo-App/).
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -32,7 +39,7 @@ To run this project, you only need a web browser.
    
 3. Open the index.html file in your web browser.
 
-### Usage
+## Usage
 
 1. Enter your name in the input field under "What's up," and it will be saved for future visits.
 2. Add a new task by filling in the description and selecting a category. Click "Add todo" to save the task.
@@ -55,15 +62,16 @@ To run this project, you only need a web browser.
 - The JavaScript code handles the app's functionality, including loading and saving data to local storage, managing user interactions, and dynamically updating the UI.
 - Key functions include displayTodos, which updates the task list, and event listeners for creating, editing, and deleting tasks.
 
-##Contributing
+## Contributing
 
-Contributions are what make the open-source community such an amazing place to be, learn, inspire, and create. Any contributions you make are greatly appreciated.
+Contributions are what make the open-source community such an amazing place to be, learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
 
 ## License
 
@@ -76,7 +84,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any inquiries or feedback, please contact me at [your-email@example.com].
+For any inquiries or feedback, please contact me at [vishnuswaroop20@gmail.com].
 
 ---
 
